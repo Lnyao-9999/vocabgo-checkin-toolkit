@@ -1,0 +1,16 @@
+# recordings / temp captures
+rec_*.wav
+last_rec.wav
+*.tmp
+s*.png
+pc*.png
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# keep the shipped TTS templates and the app-voice templates
+!skill/audio/templates/*.wav
+!skill/audio/app_templates/*.wav
